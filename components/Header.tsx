@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container flex h-14 items-center justify-between">
         <div className="mr-4 hidden md:flex">
           <Link className="mr-6 flex items-center space-x-2" href="/">
-            <span className="font-bold sm:inline-block">WebHoster</span>
+            <span className="font-bold md:text-xl sm:text-base sm:inline-block">WebHoster</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link href="#features">Features</Link>
