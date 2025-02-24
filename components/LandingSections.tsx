@@ -91,7 +91,7 @@ const LandingSections = () => {
                 </div>
                 <h3 className="text-xl font-bold">Build trust with email that matches your domain</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                Help boost your credibility with customers with free Professional Email that's identical to your domain name.
+                Help boost your credibility with customers with free Professional Email that&apos;s identical to your domain name.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">

@@ -103,7 +103,7 @@ export default function Chat() {
                 <CardContent >
                   <ScrollArea className="h-[380px] pr-4">
                     {messages?.length === 0 && (
-                      <div className="w-full mt-3 bg-gray-200 rounded-lg p-2 text-gray-700 items-center justify-center flex gap-3">Hi! I'm Stella, AI customer support expert 🤖 at WebHoster. How can I help you today?</div>
+                      <div className="w-full mt-3 bg-gray-200 rounded-lg p-2 text-gray-700 items-center justify-center flex gap-3">Hi! I&apos;m Stella, AI customer support expert 🤖 at WebHoster. How can I help you today?</div>
                     )}
                     {messages?.map((message, index) => (
                       <div key={index} className={`mb-4 ${message.role === "user" ? "text-right" : "text-left"}` }>
