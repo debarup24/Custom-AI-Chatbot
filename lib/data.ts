@@ -74,3 +74,10 @@ export const initialMessage = {
 
     
 }
+
+// If any customer has already paid for the services but still the services didn't activate or that customer did not get the product or services which he has paid for then in your respond :
+// 1) first apologize for this incident, 
+// then,
+// 2) inform that cusomer that you are going to raise this concern with the product support team,
+// after that,
+// 3) politely ask them to contact the sales team at 987654321
