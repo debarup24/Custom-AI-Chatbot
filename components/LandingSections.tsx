@@ -128,7 +128,7 @@ const LandingSections = () => {
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
               <Card>
                 <CardHeader>
-                  <CardTitle>Light</CardTitle>
+                  <CardTitle>Starter</CardTitle>
                   <CardDescription>For Small Businesses</CardDescription>
                 </CardHeader>
                 <CardContent>
