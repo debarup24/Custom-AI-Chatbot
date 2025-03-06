@@ -28,7 +28,7 @@ const Header = () => {
               <Link href="#pricing">Log in</Link>
             </Button>
             <Button asChild>
-              <Link href="/signup">Sign up</Link>
+              <Link href="#pricing">Sign up</Link>
             </Button>
           </nav>
         </div>
