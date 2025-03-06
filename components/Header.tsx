@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex items-center space-x-2">
           <nav className="flex items-center">
             <Button variant="ghost" asChild>
-              <Link href="/login">Log in</Link>
+              <Link href="#pricing">Log in</Link>
             </Button>
             <Button asChild>
               <Link href="/signup">Sign up</Link>

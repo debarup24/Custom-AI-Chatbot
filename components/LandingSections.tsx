@@ -25,10 +25,13 @@ const LandingSections = () => {
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                 Get unmatched website performance, high-speed hosting and security you can trust. Your growth is our goal.
                 </p>
+                <p className="mx-auto max-w-[700px] text-red-600 md:text-xl dark:text-gray-400">
+                [ Scroll a little.. check the right bottom corner ]
+                </p>
               </div>
               <div className="space-x-4">
                 <Button asChild>
-                  <Link href="/signup">Get Started</Link>
+                  <Link href="#pricing">Get Started</Link>
                 </Button>
                 <Button variant="outline" asChild>
                   <Link href="#features">Learn More</Link>
