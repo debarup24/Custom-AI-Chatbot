@@ -1,5 +1,5 @@
-import {streamText, Message} from "ai"
-import {createGoogleGenerativeAI} from "@ai-sdk/google"
+import { streamText, Message } from "ai"
+import { createGoogleGenerativeAI } from "@ai-sdk/google"
 import { initialMessage } from "@/lib/data"
 
 const google = createGoogleGenerativeAI({
@@ -24,11 +24,11 @@ const buildGoogleGenAIPrompt = (messages: Message[]): Message[] => [
 ]
 
 export async function POST(request: Request) {
-  const {messages} = await request.json();
+    const { messages } = await request.json();
     const stream = await streamText({
-        model: google("gemini-1.5-pro"),
+        model: google("gemini-2.0-flash"),
         messages: buildGoogleGenAIPrompt(messages),
         temperature: 0.7
     })
-  return stream?.toDataStreamResponse()
+    return stream?.toDataStreamResponse()
 }
